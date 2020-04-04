@@ -1,0 +1,127 @@
+/*global*/
+.otherSkills{
+    background: #00a8cc;
+    padding-bottom: 25px;;
+}
+.otherSkillsContainer{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+.row {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {width : 8.33%;}
+.col-2 {width : 16.66%;}
+.col-3 {width : 25.0%;}
+.col-4 {width : 33.33%;}
+.col-5 {width : 41.66%;}
+.col-6 {width : 50.0%;}
+.col-7 {width : 58.33%;}
+.col-8 {width : 66.66%;}
+.col-9 {width : 75.0%;}
+.col-10 {width : 83.33%;}
+.col-11 {width : 91.66%;}
+.col-12 {width : 100%;}
+
+/*SKILL PILLS*/
+
+/*style 1*/
+.teal-pill {
+  color: white;
+  margin: 15px;
+  height: 35px;
+  width: 150px;
+  padding:2px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: teal;
+  font-family: 'Open Sans';
+}
+
+.teal-pill:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 2px solid teal;
+    color: teal;
+}
+
+.red-pill {
+  color: white;
+  margin: 15px;
+  height: 35px;
+  width: 150px;
+  padding:2px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: crimson;
+  font-family: 'Open Sans';
+}
+
+.red-pill:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+.purple-pill {
+  color: white;
+  margin: 15px;
+  height: 35px;
+  width: 150px;
+  padding:2px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: purple;
+  font-family: 'Open Sans';
+  transition: transform 0.2s;
+}
+
+.purple-pill:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+}
+
+.orange-pill {
+  color: white;
+  margin: 15px;
+  height: 35px;
+  width: 150px;
+  padding:2px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: orange;
+  font-family: 'Open Sans';
+  transition: transform 0.2s;
+}
+
+.orange-pill:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+
+@media only screen and (max-width: 1123px){
+    .otherSkillsContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media only screen and (max-width: 360px){
+    .otherSkillsContainer{
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,38 @@
+.wholeProgressBar{
+    background: rgba(115, 211, 243, 0.411);
+    font-family: 'Baloo Thambi 2', cursive;
+    padding: 5%;
+    padding-top: 15%;
+}
+.wholeProgressBarContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    padding-top: 25px;;
+}
+
+.skillCard{
+    height: 300px;
+    width: 300px;
+}
+.card-text{
+    width: 90%;
+}
+.cardBody{
+    justify-self: center;
+    transition: transform 0.2s;
+}
+.cardBody:hover{
+    transform: scale(1.2);
+}
+.card-header{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+@media only screen and (max-width: 767px){
+    .wholeProgressBarContent{
+        grid-template-columns: 1fr;
+    }
+}

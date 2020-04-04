@@ -1,0 +1,9 @@
+.modal-header{
+    text-align: center;
+}
+
+.modal-content{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 600 !important;
+    color: navy !important;
+}
