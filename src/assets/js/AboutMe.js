@@ -33,7 +33,7 @@ class AboutMe extends React.Component{
                                 <Button variant="primary">
                                     <a 
                                         style={{color: "white"}}
-                                        href="https://drive.google.com/file/d/1D7AdP2sD7KfRjOX01_TsgnrMSzJrN5XW/view?usp=sharing">
+                                                href="https://drive.google.com/file/d/1-0xw_JEGB-DCflqLC4DKq26sWLOi2trM/view?usp=sharing">
                                         
                                         Get CV
                                     </a>

@@ -95,6 +95,11 @@ class MySidebar extends React.Component {
         return (
             <div ref="root">
                 <div className="menubar">
+                    <div id="social">
+                        <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/Satzyakiz" ></a>
+                        <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/satyaki-m-118413105/" ></a>
+                    </div>
+
                     <div className="hambclicker" onClick={this._menuToggle}></div>
                     <div id="hambmenu" className={menuStatus}>
                         <span></span>

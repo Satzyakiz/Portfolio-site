@@ -19,7 +19,7 @@ class App extends React.Component {
   componentDidMount(){
     setTimeout(() =>{
       this.setState( {loadingTimeOver: true})
-    },30);
+    },1000);
   }
   render(){
     return this.state.loadingTimeOver === false ? this.callLoader() : this.loadingOver();

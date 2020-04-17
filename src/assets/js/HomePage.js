@@ -32,7 +32,18 @@ class HomePage extends React.Component{
                 <ProgressBar />
                 <OtherSkills />
                 <MyInterests />
-                
+                <div
+                    style={{ 
+                            background: "#007FFF",
+                            textAlign: "center",
+                            padding: "15px",
+                            
+                        }}
+                >
+                    <div style={{textAlign: "center", color: "white"}}>
+                        Made with <i class="fas fa-heart" style={{color: "red"}}></i>
+                    </div>
+                </div>
             </div>
         )
     }

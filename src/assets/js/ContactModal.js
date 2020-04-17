@@ -38,12 +38,10 @@ class ContactModal extends React.Component{
                         <h4>Phone No: </h4>
                         <ul style={{ paddingLeft: "5px" }}>
                             <li>8017322560</li>
-                            <li>9831734662</li>
                         </ul>
                         <h4>Email Id:</h4> 
                         <ul style={{paddingLeft: "5px"}}>
                             <li>satyakisatzmajumder1999@gmail.com</li>
-                            <li>satyaki.maj@gmail.com</li>
                         </ul>
                         <hr />
 
