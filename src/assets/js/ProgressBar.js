@@ -16,7 +16,7 @@ class ProgressBar extends React.Component{
             <section id="id3">
             <div className="wholeProgressBar">
                 <ScrollAnimation animateIn='fadeIn'>
-                    <h2 style={{ textAlign: "center",paddingBottom:"25px", fontWeight: "600" }}> My Skills </h2>
+                    <h2 style={{ textAlign: "center",paddingBottom:"25px", fontWeight: "600", color: "white" }}> My Skills </h2>
                 </ScrollAnimation>
                 <hr size="2" color="navy"></hr>
             <div className="wholeProgressBarContent">

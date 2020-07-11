@@ -5,9 +5,9 @@ class MyInterests extends React.Component{
     render(){
         return(
             <section id="id5">
-            <div style={{ textAlign: "center", background: "#ecfcff", paddingBottom: "10%",paddingTop: "5%"}}>
+                <div style={{ textAlign: "center", background: "rgba(60, 194, 255, 0.74)", paddingBottom: "10%",paddingTop: "5%"}}>
                 <ScrollAnimation animateIn="fadeIn">
-                    <h2 style={{paddingTop: "2%"}}>My Interests</h2>
+                    <h2 style={{paddingTop: "2%", color: "white"}}>My Interests</h2>
                 </ScrollAnimation>
                 <hr />
                 <MyFlipCard />

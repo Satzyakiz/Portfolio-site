@@ -33,7 +33,7 @@ class EducationHistory extends React.Component{
                                     Mediflic is a single stage solution for Medical Tourists to 
                                     get Doctor's appointment, hospital booking, diagnostic service, 
                                     medicine delivery to parent care.
-                                    URL: <a href="https://www.mediflic.com">Mediflic</a>
+                                    {/* URL: <a href="https://www.mediflic.com">Mediflic</a> */}
                                 </p>
                             </div>
                         </div>

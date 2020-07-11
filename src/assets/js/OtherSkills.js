@@ -8,7 +8,7 @@ class OtherSkills extends React.Component{
     render(){
         return(
             <section id="id4">
-                <div style={{ minHeight: "80px", background: "rgba(115, 211, 243, 0.411)"}}></div>
+                <div style={{ minHeight: "80px", background: "#1bb3f8b8"}}></div>
             <div className="otherSkills">
                 <ScrollAnimation animateIn="fadeIn">
                 <h2 
